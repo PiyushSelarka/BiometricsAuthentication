@@ -1,24 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iWy-Rq-rxS">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Biometrics Authentication-->
+        <scene sceneID="WgZ-YX-Z17">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="6b5-Co-BG6" customClass="ViewController" customModule="TouchID_demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1SZ-iN-dDS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCe-sY-T7Z">
+                                <rect key="frame" x="122.5" y="348" width="130" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="DIl-aQ-fYw"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="130" id="jjB-lX-LQA"/>
+                                </constraints>
+                                <state key="normal" title="Authenticate"/>
+                                <connections>
+                                    <action selector="touchAuthenticateUser:" destination="6b5-Co-BG6" eventType="touchUpInside" id="jAy-yH-HFo"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="face" translatesAutoresizingMaskIntoConstraints="NO" id="vvD-e8-UOr">
+                                <rect key="frame" x="159.5" y="282" width="56" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vvD-e8-UOr" secondAttribute="height" multiplier="1:1" id="Lmh-BZ-3Z3"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <constraints>
+                            <constraint firstItem="hCe-sY-T7Z" firstAttribute="top" secondItem="vvD-e8-UOr" secondAttribute="bottom" constant="10" id="Eow-aO-x38"/>
+                            <constraint firstItem="hCe-sY-T7Z" firstAttribute="centerY" secondItem="zR5-b3-rZI" secondAttribute="centerY" id="FOO-sI-HdV"/>
+                            <constraint firstItem="vvD-e8-UOr" firstAttribute="width" secondItem="1SZ-iN-dDS" secondAttribute="width" multiplier="0.15" id="ZBC-du-Wqe"/>
+                            <constraint firstItem="hCe-sY-T7Z" firstAttribute="centerX" secondItem="zR5-b3-rZI" secondAttribute="centerX" id="df7-8M-Ao8"/>
+                            <constraint firstItem="vvD-e8-UOr" firstAttribute="centerX" secondItem="zR5-b3-rZI" secondAttribute="centerX" id="sor-9c-9RD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zR5-b3-rZI"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Biometrics Authentication" id="4AK-zm-CbY"/>
+                    <connections>
+                        <outlet property="imgAuthenticate" destination="vvD-e8-UOr" id="5NB-5v-oaI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="73B-rq-NWP" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="976.79999999999995" y="26.53673163418291"/>
+        </scene>
+        <!--SecondVC-->
+        <scene sceneID="zlb-ff-BnX">
+            <objects>
+                <viewController storyboardIdentifier="SecondVC" id="FXa-S5-7Lx" customClass="SecondVC" customModule="TouchID_demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Nh-Qj-kAs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="success" translatesAutoresizingMaskIntoConstraints="NO" id="8fn-h4-pdc">
+                                <rect key="frame" x="147.5" y="269" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8fn-h4-pdc" secondAttribute="height" multiplier="1:1" id="hTo-7X-ta7"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biometrics Authentication Successful" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aC1-F0-O5H">
+                                <rect key="frame" x="45" y="359" width="285" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="aC1-F0-O5H" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="y7x-7A-9m5" secondAttribute="leading" constant="12" id="2qr-h5-zhq"/>
+                            <constraint firstItem="8fn-h4-pdc" firstAttribute="centerX" secondItem="y7x-7A-9m5" secondAttribute="centerX" id="6UM-ao-VEv"/>
+                            <constraint firstItem="aC1-F0-O5H" firstAttribute="top" secondItem="8fn-h4-pdc" secondAttribute="bottom" constant="10" id="QZZ-5g-2hq"/>
+                            <constraint firstItem="aC1-F0-O5H" firstAttribute="centerX" secondItem="y7x-7A-9m5" secondAttribute="centerX" id="UQh-ID-oHX"/>
+                            <constraint firstItem="8fn-h4-pdc" firstAttribute="centerY" secondItem="y7x-7A-9m5" secondAttribute="centerY" multiplier="0.9" id="bXi-0I-ANc"/>
+                            <constraint firstItem="8fn-h4-pdc" firstAttribute="width" secondItem="3Nh-Qj-kAs" secondAttribute="height" multiplier="80:667" id="dIC-zP-3HL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="y7x-7A-9m5"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SCa-l6-e1u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1736.8" y="26.53673163418291"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Xzd-F8-yHw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iWy-Rq-rxS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zvH-JG-Cyo">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6b5-Co-BG6" kind="relationship" relationship="rootViewController" id="1sg-P9-iIc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HHJ-OZ-UCZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="27"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="face" width="16" height="16"/>
+        <image name="success" width="16" height="16"/>
+    </resources>
 </document>
