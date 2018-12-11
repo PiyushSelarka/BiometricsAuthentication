@@ -1,5 +1,5 @@
 ## iOS Biometric Local Authentication of Face Id and Touch ID using Swift
-<img src="https://github.com/Mindinventory/BiometricsAuthentication/blob/master/Biometrics%20Authentication/Platform.svg">  <img src="https://github.com/Mindinventory/BiometricsAuthentication/blob/master/Biometrics%20Authentication/SwiftVersion.svg">  <a href="https://github.com/Mindinventory/BiometricsAuthentication/blob/master/LICENSE" style="text-decoration: none"><img src="https://github.com/Mindinventory/BiometricsAuthentication/blob/master/Biometrics%20Authentication/LicenseMIT.svg"></a>
+<a href="#" style="pointer-events: none;"><img src="https://github.com/Mindinventory/BiometricsAuthentication/blob/master/Biometrics%20Authentication/Platform.svg"></a> <a href="#" style="pointer-events: none;"><img src="https://github.com/Mindinventory/BiometricsAuthentication/blob/master/Biometrics%20Authentication/SwiftVersion.svg">  </a> <a href="https://github.com/Mindinventory/BiometricsAuthentication/blob/master/LICENSE" style="text-decoration: none;pointer-events: none;"><img src="https://github.com/Mindinventory/BiometricsAuthentication/blob/master/Biometrics%20Authentication/LicenseMIT.svg"></a>
 
 #### Developed by [Mindinventory](https://www.mindinventory.com/?utm_source=github)
 
