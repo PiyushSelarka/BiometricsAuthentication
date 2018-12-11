@@ -1,4 +1,5 @@
 ## iOS Biometric Local Authentication of Face Id and Touch ID using Swift
+<img src="https://github.com/Mindinventory/BiometricsAuthentication/blob/master/Biometrics%20Authentication/Platform.svg">  <img src="https://github.com/Mindinventory/BiometricsAuthentication/blob/master/Biometrics%20Authentication/SwiftVersion.svg">  <img src="https://github.com/Mindinventory/BiometricsAuthentication/blob/master/Biometrics%20Authentication/LicenseMIT.svg" >
 
 #### Developed by [Mindinventory](https://www.mindinventory.com/?utm_source=github)
 
@@ -12,14 +13,14 @@ Read about how we made this on our blog (https://www.mindinventory.com/blog/inte
 ## Features
 There are two separate components in this project.
 ##### Face Id Authentication
-- This demo will help users to identify the correct face if the iOS device supports face recognisation.
+- This demo will help users to identify the correct face if the iOS device supports face recognition.
 ##### Touch Id Authentication
-- This demo will help users to identify the correct fingerprints if the iOS device supports Touch Id recognisation.
+- This demo will help users to identify the correct fingerprints if the iOS device supports Touch Id recognition.
 
 ## Compatibility
 - iOS version 11 or above 
 
-## Changelog
+## Change-log
 ##### Version: 1.0
 - Initial Build
 
