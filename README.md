@@ -7,7 +7,7 @@ This project aims to provide the easy step by step process on how to integrate b
 <img src="https://raw.githubusercontent.com/Mindinventory/BiometricsAuthentication/master/Face-ID.gif" >
 <img src="https://raw.githubusercontent.com/Mindinventory/BiometricsAuthentication/master/finger-print.gif" >
 
-## Features & Usage
+## Features
 There are two separate components in this project.
 ##### Face Id Authentication
 - This demo will help users to identify the correct face if the iOS device supports face recognisation.
