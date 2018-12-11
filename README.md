@@ -1,8 +1,10 @@
 ## iOS Biometric Local Authentication of Face Id and Touch ID using Swift
 
-#### Developed by Mindinventory
+#### Developed by [Mindinventory](https://www.mindinventory.com/?utm_source=github)
 
 This project aims to provide the easy step by step process on how to integrate biometric authentication like Touch ID and Face ID using Swift in your iPhone apps. 
+
+Read about how we made this on our blog (https://www.mindinventory.com/blog/integrate-biometric-authentication-in-iphone-apps/)
 
 <img src="https://raw.githubusercontent.com/Mindinventory/BiometricsAuthentication/master/Face-ID.gif" >
 <img src="https://raw.githubusercontent.com/Mindinventory/BiometricsAuthentication/master/finger-print.gif" >
