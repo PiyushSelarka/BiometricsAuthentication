@@ -6,8 +6,8 @@ This project aims to provide the easy step by step process on how to integrate b
 
 Read about how we made this on our blog (https://www.mindinventory.com/blog/integrate-biometric-authentication-in-iphone-apps/)
 
-<img src="https://raw.githubusercontent.com/Mindinventory/BiometricsAuthentication/master/Face-ID.gif" >
-<img src="https://raw.githubusercontent.com/Mindinventory/BiometricsAuthentication/master/finger-print.gif" >
+![face-id](https://user-images.githubusercontent.com/16381297/49783936-989e1a80-fd41-11e8-8b89-39cedc5b997f.gif)
+![finger-print](https://user-images.githubusercontent.com/16381297/49783937-989e1a80-fd41-11e8-8769-903ce0808b76.gif)
 
 ## Features
 There are two separate components in this project.
