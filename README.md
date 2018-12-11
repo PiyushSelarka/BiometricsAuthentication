@@ -24,7 +24,7 @@ There are two separate components in this project.
 - Initial Build
 
 ## LICENSE!
-Flutter-review-page-interaction is [MIT-licensed](https://github.com/Mindinventory/BiometricsAuthentication/blob/master/LICENSE).
+BiometricsAuthentication is [MIT-licensed](https://github.com/Mindinventory/BiometricsAuthentication/blob/master/LICENSE).
 
 ## Let us know!
 We’d be really happy if you send us links to your projects where you use our component. Just send an email to sales@mindinventory.com And do let us know if you have any questions or suggestion regarding our work.
