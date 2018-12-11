@@ -8,7 +8,6 @@ This project aims to provide the easy step by step process on how to integrate b
 <img src="https://raw.githubusercontent.com/Mindinventory/BiometricsAuthentication/master/finger-print.gif" >
 
 ## Features & Usage
-___
 There are two separate components in this project.
 ##### Face Id Authentication
 - This demo will help users to identify the correct face if the iOS device supports face recognisation.
@@ -16,18 +15,14 @@ There are two separate components in this project.
 - This demo will help users to identify the correct fingerprints if the iOS device supports Touch Id recognisation.
 
 ## Compatibility
-___
 - iOS version 11 or above 
 
 ## Changelog
-______
 ##### Version: 1.0
 - Initial Build
 
 ## LICENSE!
-___
 Flutter-review-page-interaction is [MIT-licensed](https://github.com/Mindinventory/BiometricsAuthentication/blob/master/LICENSE).
 
 ## Let us know!
-___
 We’d be really happy if you send us links to your projects where you use our component. Just send an email to sales@mindinventory.com And do let us know if you have any questions or suggestion regarding our work.
